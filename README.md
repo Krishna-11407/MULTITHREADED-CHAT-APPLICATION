@@ -22,11 +22,11 @@ The client application connects to the server, prompts the user for a name, and 
 
 I structured the project as follows:
 
-
+'''
 javachatapp/
 ├── ChatServer.java   // The server application
 └── ChatClient.java   // The client application
-
+'''
 
 To develop and test the application, I used Visual Studio Code (VS Code) as my IDE. VS Code provided a convenient environment for editing, compiling, and running Java code, as well as managing multiple terminal windows for server and client processes.
 
