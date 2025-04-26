@@ -22,30 +22,33 @@ The client application connects to the server, prompts the user for a name, and 
 
 I structured the project as follows:
 
-'''
+## Project Structure
+```
 javachatapp/
 ├── ChatServer.java   // The server application
 └── ChatClient.java   // The client application
-'''
+
+```
 
 To develop and test the application, I used Visual Studio Code (VS Code) as my IDE. VS Code provided a convenient environment for editing, compiling, and running Java code, as well as managing multiple terminal windows for server and client processes.
 
 ### How to Run
 
 1. Compile the Java files:
-   
+```
    javac ChatServer.java ChatClient.java
-   
-2. Start the server in one terminal:
-   
+```
+1. Start the server in one terminal:
+```
    java ChatServer
-   
-3. Open one or more additional terminals and start clients:
-   
+```
+1. Open one or more additional terminals and start clients:
+   ```
    java ChatClient
-   
+   ```
    Enter your name when prompted. Each client window acts as a separate user.
-4. Type messages in any client window and press Enter. All connected clients will receive the messages in real time.
+   
+3. Type messages in any client window and press Enter. All connected clients will receive the messages in real time.
 
 The server must be running before any clients can connect. All clients connect to localhost by default, but you can modify the server address in ChatClient.java to support remote connections. To stop the server or clients, simply close their respective terminal windows.
 
