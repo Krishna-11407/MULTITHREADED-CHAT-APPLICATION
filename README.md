@@ -56,5 +56,6 @@ This project was inspired by several online resources. I referred to the [Geeksf
 
 Building this chat application was a valuable learning experience. It gave me hands-on practice with Java's networking libraries and helped me understand how to manage multiple client connections efficiently. The project can be extended with features like private messaging, user authentication, or a graphical user interface. For now, it serves as a solid foundation for anyone interested in learning about real-time communication and concurrent programming in Java.
 
+##SNAPSHOTS
 
-
+![Image](https://github.com/user-attachments/assets/5ca30d2a-c827-4f86-9a76-151fe2796034)
